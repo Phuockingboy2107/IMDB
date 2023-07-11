@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./style/Header.css";
+import "./style/Card.css";
+import "./style/MovieList.css";
+import "./style/Banner.css";
+import "./style/Home.css";
+import Home from "./screen/Home";
+import UpComing from "./screen/UpComing";
+import DetailMovie from "./screen/DetailMovie";
+import Admin from "./screen/Admin";
+import Login from "./components/Login";
+import Popular from "./screen/Popular";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route index element={<Home />} />
+                <Route path="/upcoming" element={<UpComing />} />
+                <Route path="/movie/detail/:mid" element={<DetailMovie />} />
+                <Route path="/movie/popular" element={<Popular />} />
+                <Route path="/manage/admin" element={<Admin />} />
+                <Route path="/login" element={<Login />} />
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;

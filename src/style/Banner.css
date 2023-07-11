@@ -1,0 +1,21 @@
+.poster-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+.carousel-img {
+ max-width: 100%;
+ object-fit: contain;
+}
+.carousel{
+    width: 80%;
+    
+}
+.carousel-banner{
+    display: flex;
+    justify-content: center;
+}
+.carousel-banner .carousel {
+    border-radius: 10px; /* Điều chỉnh giá trị để bo tròn cạnh theo ý muốn */
+  }
