@@ -7,11 +7,12 @@ const Card = ({ title, imgURL, body, id }) => {
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>
                 <p className="card-text">{body}</p>
+                
                 <Link
                     to={"/movie/detail/" + id}
                     className="btn btn-outline-dark"
                 >
-                    Trailer
+                    trailer
                 </Link>
             </div>
         </div>
