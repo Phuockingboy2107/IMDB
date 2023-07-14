@@ -13,6 +13,14 @@ const Header = () => {
                 id="navbarSupportedContent"
             >
                 <ul className="navbar-nav mr-auto">
+                <li className="nav-item mx-3">
+                        <Link
+                            className="nav-link text-light font-weight-bold"
+                            to={"/login"}
+                        >
+                            Login
+                        </Link>
+                    </li>
                     <li className="nav-item mx-3">
                         <Link
                             className="nav-link text-light font-weight-bold"
