@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Card from "./Card";
-import { Carousel, CarouselItem, Col, Container, Row } from "react-bootstrap";
-import DefaultTemplate from "../Template/DefaultTemplate";
+import DetailMovie from "../screen/DetailMovie";
+import {  Col, Row } from "react-bootstrap";
 const PopularMovieList = () => {
     const [movie, setMovie] = useState([]);
     useEffect(() => {
@@ -12,8 +12,10 @@ const PopularMovieList = () => {
     return (
         <Row className="movie_list">
             {movie.map((m) => (
-                <Col className="list_card" md={3}>
+                <Col className="list_card" xs={6} md={3}>
+
                     <Card title={m.title} imgURL={m.thumbnail} id={m.id} />
+                    
                 </Col>
             ))}
         </Row>

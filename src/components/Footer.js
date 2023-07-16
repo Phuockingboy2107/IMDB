@@ -1,7 +1,10 @@
 import { Container } from "react-bootstrap";
 
-const Footer = () => {
-    return <Container></Container>;
-};
+export default function Footer() {
+    return(
+        <div className="row footer">
+           <h4>@team</h4> 
+        </div>
+    );
+}
 
-export default Footer;
