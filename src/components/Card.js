@@ -11,7 +11,7 @@ const Card = ({ title, imgURL, body, id }) => {
                     to={"/movie/detail/" + id}
                     className="btn btn-outline-dark"
                 >
-                    Trailer
+                    Details
                 </Link>
             </div>
         </div>

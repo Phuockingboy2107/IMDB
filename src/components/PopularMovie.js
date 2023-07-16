@@ -7,7 +7,7 @@ const PopularMovieList = () => {
     useEffect(() => {
         fetch("http://localhost:9999/movie")
             .then((res) => res.json())
-            .then((resp) => setMovie(resp));
+            .then((resp) => setMovie(resp.slice(0, 4)));
     }, []);
     return (
         <Row className="movie_list">
