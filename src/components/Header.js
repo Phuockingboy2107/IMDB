@@ -1,6 +1,14 @@
 import { Col, Container, Nav, Navbar, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import Profile from "../screen/Profile";
 const Header = () => {
+    const history = useNavigate()
+  const id =  sessionStorage.getItem("user")
+ const  handleLogOut = ()=>{
+    sessionStorage.removeItem("user")
+    history("/")
+ }
+
     return (
         <Navbar className="navbar py-3">
             <div className="logo">
@@ -14,12 +22,19 @@ const Header = () => {
             >
                 <ul className="navbar-nav mr-auto">
                 <li className="nav-item mx-3">
-                        <Link
+                    {id?  <Link
+                            className="nav-link text-light font-weight-bold"
+                            
+                            onClick={handleLogOut}
+                        >
+                            Logout
+                        </Link>:<Link
                             className="nav-link text-light font-weight-bold"
                             to={"/login"}
                         >
                             Login
-                        </Link>
+                        </Link>}
+                        
                     </li>
                     <li className="nav-item mx-3">
                         <Link
@@ -40,6 +55,14 @@ const Header = () => {
                             to={"/movie/popular"}
                         >
                             Popular
+                        </Link>
+                    </li>
+                    <li className="nav-item  mx-3">
+                        <Link
+                            className="nav-link text-light"
+                            to={"/profile/:profileId"}
+                        >
+                            Account
                         </Link>
                     </li>
                 </ul>
