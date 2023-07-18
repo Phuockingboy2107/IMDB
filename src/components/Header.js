@@ -13,14 +13,6 @@ const Header = () => {
                 id="navbarSupportedContent"
             >
                 <ul className="navbar-nav mr-auto">
-                <li className="nav-item mx-3">
-                        <Link
-                            className="nav-link text-light font-weight-bold"
-                            to={"/login"}
-                        >
-                            Login
-                        </Link>
-                    </li>
                     <li className="nav-item mx-3">
                         <Link
                             className="nav-link text-light font-weight-bold"
@@ -42,20 +34,29 @@ const Header = () => {
                             Popular
                         </Link>
                     </li>
+                    {/* <li className="nav-item  mx-3">
+                        <form className="form-inline mr-5 my-lg-0 ">
+                            <input
+                                className="form-control d-none d-md-block  ml-sm-2"
+                                type="search"
+                                placeholder="Search"
+                            />
+                        </form>
+                    </li> */}
                 </ul>
-                <form className="form-inline mr-5 my-lg-0 ">
-                    <input
-                        className="form-control d-none d-md-block  ml-sm-2"
-                        type="search"
-                        placeholder="Search"
-                    />
-                    <button
-                        className="btn btn-outline-success d-none d-md-block ml-2 my-sm-0"
-                        type="submit"
-                    >
-                        Search
-                    </button>
-                </form>
+                <Link
+                    to={"/manager/movie"}
+                    className="nav-link text-light mx-3"
+                >
+                    Manage movie
+                </Link>
+
+                <Link
+                    className="nav-link text-light font-weight-bold"
+                    to={"/login"}
+                >
+                    Login
+                </Link>
             </Row>
         </Navbar>
     );
