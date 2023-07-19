@@ -1,5 +1,5 @@
 import { Col, Container, Nav, Navbar, Row } from "react-bootstrap";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate,NavLink } from "react-router-dom";
 import Profile from "../screen/Profile";
 const Header = () => {
     const history = useNavigate()
@@ -58,12 +58,12 @@ const Header = () => {
                         </Link>
                     </li>
                     <li className="nav-item  mx-3">
-                        <Link
+                        <NavLink
                             className="nav-link text-light"
-                            to={"/profile/:profileId"}
+                            to={"/profile/"+id}
                         >
                             Account
-                        </Link>
+                        </NavLink>
                     </li>
                 </ul>
                 <form className="form-inline mr-5 my-lg-0 ">

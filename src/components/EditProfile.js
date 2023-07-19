@@ -52,12 +52,7 @@ export default function EditProfile() {
                 <Modal.Body>
                     <Form>
                         <Row>
-                            <Col>
-                                <Form.Group className="mb-3" controlId="formGroupUsername">
-                                    <Form.Label>ID</Form.Label>
-                                    <Form.Control type="text" value={data?.id ?? -1} disabled />
-                                </Form.Group>
-                            </Col>
+                           
                             <Col>
                                 <Form.Group className="mb-3" controlId="formGroupPassword">
                                     <Form.Label>Account</Form.Label>
@@ -140,7 +135,7 @@ export default function EditProfile() {
                                     <Form.Select
                                         class="sel"
                                         required
-                                        value={data?.dob}
+                                        value={data?.gender}
                                         onChange={(e) => setData({ ...data, gender: parseInt(e.target.value) })}
                                     >
                                         <option value="0">Male</option>

@@ -1,21 +1,22 @@
 import { useState } from "react";
 import { Button, Card, Form, Modal } from "react-bootstrap";
 import { User } from "../hook/User";
-import { toast } from "react-toastify";
+
+import { useParams } from "react-router-dom";
 
 const ChangePassword = () => {
     const [oldPassword, setOldPassword] = useState("");
     const [newPassword, setNewPassword] = useState("");
     const [user, setUser] = User()
-
+    const { profileId } = useParams();
     const handleUpdate = () => {
-        if(oldPassword !== user.password) return toast("Old password is incorrect!")
+        if(oldPassword !== user.password) return alert("Old password is incorrect!")
         if (!newPassword) {
-            alert.error("Please fill in all fields!");
+            alert("Please fill in all fields!");
             return;
         }
 
-        fetch(`http://localhost:9999/users/${user.id}`, {
+        fetch('http://localhost:9999/users/'+profileId, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json",

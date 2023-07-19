@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 
 export default function TemplateHome({children}){
     return(
-        <div className = "container">
+        <div className = "">
             <Header/>
             
             <div className="row content1">

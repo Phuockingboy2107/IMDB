@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { toast,ToastContainer } from "react-toastify";
 import {Row} from "react-bootstrap"
 import TemplateHome from "../Template/TemPlateHome";
+import DefaultTemplate from "../Template/DefaultTemplate";
 const Login = () => {
     const [username, usernameupdate] = useState('');
     const [password, passwordupdate] = useState('');
@@ -23,7 +24,7 @@ sessionStorage.clear();
                 if (Object.keys(resp).length === 0) {
                     toast.error('Please Enter Valid username');
                 } else {
-                    console.log(resp[0].id);
+                    
                     
                     if (resp[0].password === password) {
                         
@@ -56,7 +57,7 @@ sessionStorage.clear();
         return result;
     }
     return (
-        <TemplateHome>
+        <DefaultTemplate>
             <div className="row">
                 <div className="offset-lg-3 col-lg-6" style={{ marginTop: "100px" }}>
                     <form onSubmit={ProceedLogin} className="container">
@@ -99,14 +100,14 @@ sessionStorage.clear();
                                 </button>{" "}
                                 |
                                 <Link className="btn btn-success" to={"/register"}>
-                                    New User
+                                    Register
                                 </Link>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
-        </TemplateHome>
+        </DefaultTemplate>
     );
 }
 

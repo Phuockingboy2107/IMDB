@@ -13,7 +13,7 @@ const Register = () => {
     const [city, citychange] = useState("");
     const [address, addresschange] = useState("");
     const [gender, genderchange] = useState("male");
-    const [role, roleId] = useState(1);
+
     const navigate = useNavigate();
 
     const IsValaccountate = () => {
@@ -60,7 +60,7 @@ const Register = () => {
 
     const handlesubmit = (e) => {
         e.preventDefault();
-        let regobj = { account, name, password, gmail, phone, city, address, gender, dob ,role};
+        let regobj = { account, name, password, gmail, phone, city, address, gender, dob };
         if (IsValaccountate()) {
             fetch("http://localhost:9999/users", {
                 method: "POST",
