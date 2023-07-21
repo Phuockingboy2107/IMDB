@@ -1,450 +1,459 @@
 {
-  "user": [
-    {
-      "id": 1,
-      "name": "John",
-      "passwork": "12345"
-    }
-  ],
-  "movie": [
-    {
-      "id": 1,
-      "title": "The Grudges",
-      "date": "2020-01-03",
-      "cast": [
-        "Andrea Riseborough,",
-        "Demián Bichir,",
-        "John Cho"
-      ],
-      "genreId": 4,
-      "extract": "The Grudge is a 2020 American psychological supernatural horror film written and directed by Nicolas Pesce. Originally announced as a reboot of the 2004 American remake and the original 2002 Japanese horror film Ju-On: The Grudge, the film ended up taking place before and during the events of the 2004 film and its two direct sequels, and is the fourth installment in the American The Grudge film series. The film stars Andrea Riseborough, Demián Bichir, John Cho, Betty Gilpin, Lin Shaye, and Jacki Weaver, and follows a police officer who investigates several murders that are seemingly connected to a single house.",
-      "thumbnail": "https://www.themoviedb.org/t/p/original/vN7JHlHOT9rHNDU27tfYqhABBj5.jpg",
-      "banner": "https://www.comingsoon.net/wp-content/uploads/sites/3/2019/10/Grudge.jpg",
-      "vote": 7.5,
-      "time": 120,
-      "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
-    },
-    {
-      "id": 2,
-      "title": "Underwater",
-      "date": "2020-10-01",
-      "cast": [
-        "Kristen Stewart",
-        "Vincent Cassel",
-        "Jessica Henwick",
-        "John Gallagher Jr.",
-        "Mamoudou Athie",
-        "T.J. Miller"
-      ],
-      "genreId": 3,
-      "extract": "Underwater is a 2020 American science fiction action horror film directed by William Eubank. The film stars Kristen Stewart, Vincent Cassel, Jessica Henwick, John Gallagher Jr., Mamoudou Athie, and T.J. Miller.",
-      "thumbnail": "https://www.themoviedb.org/t/p/original/gzlbb3yeVISpQ3REd3Ga1scWGTU.jpg",
-      "banner": "https://flixchatter.files.wordpress.com/2020/01/underwater-bnr.jpg?w=610&h=263",
-      "vote": 9,
-      "time": "124",
-      "trailer": "https://www.youtube.com/embed/jCFWEzIVILc"
-    },
-    {
-      "id": 3,
-      "title": "Like a Boss",
-      "date": "2020-07-01",
-      "cast": [
-        "Tiffany Haddish",
-        "Rose Byrne",
-        "Salma Hayek",
-        "Jennifer Coolidge",
-        "Billy Porter"
-      ],
-      "genreId": 7,
-      "extract": "Like a Boss is a 2020 American comedy film directed by Miguel Arteta, written by Sam Pitman and Adam Cole-Kelly, and starring Tiffany Haddish, Rose Byrne, and Salma Hayek. The plot follows two friends who attempt to take back control of their cosmetics company from an industry titan.",
-      "thumbnail": "https://www.themoviedb.org/t/p/original/yce0CZPWd0GGudksRJi8p4gDj1M.jpg",
-      "banner": "https://m.media-amazon.com/images/M/MV5BZDUyZTU2ZjUtMDlmNS00OTc2LTk4YzItNjk3YWY0MGQ0NzI3XkEyXkFqcGdeQXVyMjI0Mjg2NzE@._V1_.jpg",
-      "vote": 6.5,
-      "time": "120",
-      "trailer": "https://www.youtube.com/embed/9ESkyRFEso4"
-    },
-    {
-      "id": 4,
-      "title": "Three Christs",
-      "year": "2020-01-09",
-      "cast": [
-        "Richard Gere",
-        "Peter Dinklage",
-        "Walton Goggins",
-        "Bradley Whitford"
-      ],
-      "genreId": 1,
-      "href": "Three_Christs",
-      "extract": "Three Christs, also known as State of Mind, is a 2017 American drama film directed, co-produced, and co-written by Jon Avnet and based on Milton Rokeach's nonfiction book The Three Christs of Ypsilanti. It screened in the Gala Presentations section at the 2017 Toronto International Film Festival. The film is also known as: Three Christs of Ypsilanti, The Three Christs of Ypsilanti, Three Christs of Santa Monica, and The Three Christs of Santa Monica.",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a1/Three_Christs_poster.jpg",
-      "vote": 5.5,
-      "thumbnail_width": 259,
-      "thumbnail_height": 383
-    },
-    {
-      "id": 5,
-      "title": "Inherit the Viper",
-      "date": "2020-10-01",
-      "cast": [
-        "Josh Hartnett",
-        "Margarita Levieva",
-        "Chandler Riggs",
-        "Bruce Dern",
-        "Owen Teague"
-      ],
-      "genreId": 2,
-      "href": "Inherit_the_Viper",
-      "extract": "Inherit the Viper is a 2019 American crime drama film directed by Anthony Jerjen, in his feature directorial debut, from a screenplay by Andrew Crabtree. It stars Josh Hartnett, Margarita Levieva, Chandler Riggs, Bruce Dern, Valorie Curry, Owen Teague, and Dash Mihok.",
-      "thumbnail": "https://www.themoviedb.org/t/p/original/aaLEThX7CxKJuAQDnrZcecpzu0I.jpg",
-      "vote": 6,
-      "thumbnail_width": 236,
-      "thumbnail_height": 350
-    },
-    {
-      "id": 6,
-      "title": "The Sonata",
-      "date": "2020-12-06",
-      "cast": [
-        "Freya Tingley",
-        "Simon Abkarian",
-        "Rutger Hauer",
-        "James Faulkner"
-      ],
-      "genreId": 5,
-      "href": "The_Sonata_(film)",
-      "extract": "The Sonata is a 2018 mystery thriller film, directed by Andrew Desmond, from a screenplay by Desmond and Arthur Morin. It stars Freya Tingley, Simon Abkarian, James Faulkner, Rutger Hauer, Matt Barber and James Kermack. It was released in the United States on January 10, 2020, by Screen Media Films. It grossed $146,595 at the box office and received mixed reviews from critics.",
-      "thumbnail": "https://www.themoviedb.org/t/p/original/iiL3AWKPx6GIZN6AmmSq7pbtyc.jpg",
-      "vote": 5.5,
-      "thumbnail_width": 246,
-      "thumbnail_height": 350
-    },
-    {
-      "id": 7,
-      "title": "Bad Boys for Life",
-      "date": "2020-01-17",
-      "cast": [
-        "Will Smith",
-        "Martin Lawrence",
-        "Vanessa Hudgens",
-        "Alexander Ludwig",
-        "Charles Melton",
-        "Paola Núñez",
-        "Kate del Castillo",
-        "Nicky Jam",
-        "Joe Pantoliano"
-      ],
-      "genreId": 5,
-      "href": "Bad_Boys_for_Life",
-      "extract": "Bad Boys for Life is a 2020 American buddy cop action comedy film directed by Adil & Bilall. It is the sequel to Bad Boys II (2003) and the third installment in the Bad Boys franchise. Will Smith, Martin Lawrence, Joe Pantoliano and Theresa Randle reprise their roles in the film and are joined by Paola Núñez, Vanessa Hudgens, Jacob Scipio, Alexander Ludwig, Charles Melton, Kate del Castillo and Nicky Jam. The film was produced by Smith, Jerry Bruckheimer, and Doug Belgrad, with a screenplay written by Chris Bremner, Peter Craig and Joe Carnahan. In Bad Boys for Life, Miami detectives Mike Lowrey and Marcus Burnett investigate a string of murders tied to Lowrey's troubled past.",
-      "thumbnail": "https://www.themoviedb.org/t/p/original/y95lQLnuNKdPAzw9F9Ab8kJ80c3.jpg",
-      "vote": 6,
-      "thumbnail_width": 219,
-      "thumbnail_height": 325
-    },
-    {
-      "id": 8,
-      "title": "Dolittle",
-      "date": "2020-01-25",
-      "cast": [
-        "Robert Downey Jr.",
-        "Antonio Banderas",
-        "Michael Sheen",
-        "Emma Thompson",
-        "Rami Malek",
-        "John Cena",
-        "Kumail Nanjiani",
-        "Octavia Spencer",
-        "Tom Holland",
-        "Craig Robinson",
-        "Ralph Fiennes",
-        "Selena Gomez",
-        "Marion Cotillard"
-      ],
-      "genreId": 11,
-      "href": "Dolittle_(film)",
-      "extract": "Dolittle is a 2020 American fantasy adventure film directed by Stephen Gaghan from a screenplay by Gaghan, Dan Gregor, and Doug Mand, based on a story by Thomas Shepherd. Dolittle is based on the title character created by Hugh Lofting and is primarily inspired by the author's second Doctor Dolittle book, The Voyages of Doctor Dolittle (1922). Robert Downey Jr. stars as the title character, alongside Antonio Banderas and Michael Sheen in live-action roles, with Emma Thompson, Rami Malek, John Cena, Kumail Nanjiani, Octavia Spencer, Tom Holland, Craig Robinson, Ralph Fiennes, Selena Gomez, and Marion Cotillard voicing an array of creatures.",
-      "thumbnail": "https://www.themoviedb.org/t/p/original/uoplwswBDy7gsOyrbGuKyPFoPCs.jpg",
-      "vote": 6.5,
-      "thumbnail_width": 220,
-      "thumbnail_height": 326
-    },
-    {
-      "id": 9,
-      "title": "A Fall from Grace",
-      "date": "2020-01-17",
-      "cast": [
-        "Crystal R. Fox",
-        "Phylicia Rashad",
-        "Bresha Webb",
-        "Mehcad Brooks",
-        "Cicely Tyson",
-        "Tyler Perry"
-      ],
-      "genreId": 3,
-      "href": "A_Fall_from_Grace",
-      "extract": "A Fall from Grace is a 2020 American thriller film produced, written, and directed by Tyler Perry and his first to be released by Netflix. The film follows a woman who finds a dangerous new love and the novice attorney who defends her in a sensational court case. This was the final film of actor Cicely Tyson before her death in January 2021.",
-      "thumbnail": "https://www.themoviedb.org/t/p/original/h47JJZ015VF4neia33AFwTU37Yb.jpg",
-      "vote": 7,
-      "thumbnail_width": 259,
-      "thumbnail_height": 383
-    },
-    {
-      "id": 10,
-      "title": "The Gentlemen",
-      "date": "2020-02-21",
-      "cast": [
-        "Matthew McConaughey",
-        "Charlie Hunnam",
-        "Henry Golding",
-        "Michelle Dockery",
-        "Jeremy Strong",
-        "Eddie Marsan",
-        "Colin Farrell",
-        "Hugh Grant"
-      ],
-      "genreId": 8,
-      "href": "The_Gentlemen_(2019_film)",
-      "extract": "The Gentlemen is a 2019 action comedy film written, directed and produced by Guy Ritchie, who developed the story along with Ivan Atkinson and Marn Davies. The film stars Matthew McConaughey, Charlie Hunnam, Henry Golding, Michelle Dockery, Jeremy Strong, Eddie Marsan, Colin Farrell, and Hugh Grant. It follows an American cannabis wholesaler in England who is looking to sell his business, setting off a chain of blackmail and schemes to undermine him.",
-      "thumbnail": "https://www.themoviedb.org/t/p/original/jtrhTYB7xSrJxR1vusu99nvnZ1g.jpg",
-      "vote": 7,
-      "thumbnail_width": 259,
-      "thumbnail_height": 383
-    },
-    {
-      "title": "John Wick: Chapter 4",
-      "date": "2023-03-24",
-      "cast": "Keanu Reeves,Donnie Yen",
-      "genreId": 3,
-      "extract": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
-      "thumbnail": "https://www.themoviedb.org/t/p/original/vppo7eOOkkjoSoBSglYIxLDB0dJ.jpg",
-      "banner": "https://www.themoviedb.org/t/p/original/vppo7eOOkkjoSoBSglYIxLDB0dJ.jpg",
-      "vote": 7.5,
-      "time": 120,
-      "trailer": "https://www.youtube.com/embed/cYX2_lDYZpI",
-      "id": 11
-    },
-    {
-      "title": "Barbie",
-      "date": "2023-07-21",
-      "cast": "Margot Robbie,Ryan Gosling",
-      "genreId": 7,
-      "extract": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
-      "thumbnail": "https://www.themoviedb.org/t/p/original/cgYg04miVQUAG2FKk3amSnnHzOp.jpg",
-      "banner": "https://www.themoviedb.org/t/p/original/1h7lX4NTYn9Ufwh2ls2DuVHAbHp.jpg",
-      "vote": 0,
-      "time": 120,
-      "trailer": "https://www.youtube.com/embed/8zIf0XvoL9Y",
-      "id": 12
-    },
-    {
-      "title": "Oppenheimer",
-      "date": "2023-08-04",
-      "cast": "Cillian Murphy,Emily Blunt",
-      "genreId": 2,
-      "extract": "The story of J. Robert Oppenheimer’s role in the development of the atomic bomb during World War II.",
-      "thumbnail": "https://www.themoviedb.org/t/p/original/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
-      "banner": "https://www.themoviedb.org/t/p/original/aiFAq6HrEENrP2Hs9UCrjC9siVI.jpg",
-      "vote": 0,
-      "time": 120,
-      "trailer": "https://www.youtube.com/embed/uYPbbksJxIg",
-      "id": 13
-    },
-    {
-      "title": "Meg 2: The Trench",
-      "date": "2023-08-04",
-      "cast": "Jason Statham,Wu Jing",
-      "genreId": 3,
-      "extract": "An exploratory dive into the deepest depths of the ocean of a daring research team spirals into chaos when a malevolent mining operation threatens their mission and forces them into a high-stakes battle for survival.",
-      "thumbnail": "https://www.themoviedb.org/t/p/original/5aa22WKuoV5d9FqrqJ1PqXDiaE3.jpg",
-      "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vbvcvIxXywM6rP1ayoz3AxE83oe.jpg",
-      "vote": 0,
-      "time": 120,
-      "trailer": "https://www.youtube.com/embed/dG91B3hHyY4",
-      "id": 14
-    },
-    {
-      "title": "Teenage Mutant Ninja Turtles(2023)",
-      "date": "2023-08-02",
-      "cast": "Nicolas Cantu,Shamon Brown Jr.,Micah Abbey",
-      "genreId": 6,
-      "extract": "After years of being sheltered from the human world, the Turtle brothers set out to win the hearts of New Yorkers and be accepted as normal teenagers through heroic acts. Their new friend April O'Neil helps them take on a mysterious crime syndicate, but they soon get in over their heads when an army of mutants is unleashed upon them.",
-      "thumbnail": "https://www.themoviedb.org/t/p/original/gyh0eECE2IqrW8GWl3KoHBfc45j.jpg",
-      "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zfoLIXEz6dE6EJFuy1VovAUR2xu.jpg",
-      "vote": 0,
-      "time": 160,
-      "trailer": "https://www.youtube.com/embed/ooZdaF2zMlM",
-      "id": 15
-    },
-    {
-      "title": "Haunted Mansion",
-      "date": "2023-07-28",
-      "cast": "Rosario Dawson,Chase W. Dillon",
-      "genreId": 5,
-      "extract": "A woman and her son enlist a motley crew of so-called spiritual experts to help rid their home of supernatural squatters.",
-      "thumbnail": "https://www.themoviedb.org/t/p/original/kpLx1gDYolWLBNOmuFVvrqFKQK3.jpg",
-      "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/d0tPXUI7GHSKiDZ32m7OrG15G3K.jpg",
-      "vote": 0,
-      "time": 160,
-      "trailer": "https://www.youtube.com/embed/gartMjonTXc",
-      "id": 16
-    }
-  ],
-  "upcomingmovie": [
-    {
-      "id": 1,
-      "title": "The Grudge",
-      "cast": [
-        "Andrea Riseborough,",
-        "Demián Bichir,",
-        "John Cho"
-      ],
-      "year": "2020/03/01",
-      "genres": [
-        "Supernatural"
-      ],
-      "thumbnail": "https://www.themoviedb.org/t/p/original/vN7JHlHOT9rHNDU27tfYqhABBj5.jpg"
-    },
-    {
-      "id": 2,
-      "title": "Transformers: Rise of the Beasts (2023)",
-      "year": 2023,
-      "cast": [
-        "Ron Perlman",
-        "Anthony Ramos",
-        "Peter Cullen",
-        "Dominique Fishback",
-        "Luna Lauren Velez"
-      ],
-      "genres": [
-        "Action",
-        "Adventure",
-        "Science Fiction"
-      ],
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BZTNiNDA4NmMtNTExNi00YmViLWJkMDAtMDAxNmRjY2I2NDVjXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
-    },
-    {
-      "id": 3,
-      "title": "Elemental (2023)",
-      "year": 2023,
-      "cast": [
-        "Leah Lewis",
-        "Mamoudou Athie"
-      ],
-      "genres": [
-        "Fantasy",
-        "Animation"
-      ],
-      "thumbnail": "https://www.cgv.vn/media/catalog/product/cache/1/image/1800x/71252117777b696995f01934522c402d/e/l/elemental_teaser_poster_vietnam_1_.jpg"
-    },
-    {
-      "id": 4,
-      "title": "Extraction 2 (2023)",
-      "year": 2023,
-      "cast": [
-        "Chris Hemsworth",
-        "Golshifteh Farahani",
-        "Adam Bessa"
-      ],
-      "genres": [
-        "Action"
-      ],
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BZjg5MTM4N2QtN2RlMS00NzBlLTg3NDktM2ExZDNmMmExMGU3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"
-    },
-    {
-      "id": 5,
-      "title": "Mission: Impossible - Dead Reckoning, Part One (2023)",
-      "year": 2023,
-      "cast": [
-        "Tom Cruise",
-        "Rebecca Ferguson",
-        "Simon Pegg",
-        "Ving Rhames",
-        "Vanessa Kirby"
-      ],
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "thumbnail": "https://www.cgv.vn/media/catalog/product/cache/3/image/c5f0a1eff4c394a251036189ccddaacd/7/0/700x1000_7_.jpg"
-    },
-    {
-      "id": 6,
-      "title": "Oppenheimer (2023)",
-      "year": 2023,
-      "cast": [
-        "Cillian Murphy",
-        "Emily Blunt",
-        "Robert Downey Jr"
-      ],
-      "genres": [
-        "Drama",
-        "History"
-      ],
-      "thumbnail": "https://onedrive.live.com/embed?resid=7E19459BBE9C15BC%21102459&authkey=%21AA2vFHb9DH1BXwI&width=1000&height=1500",
-      "trailer": "https://www.youtube.com/embed/bK6ldnjE3Y0"
-    }
-  ],
-  "genres": [
-    {
-      "id": 1,
-      "name": "Drama"
-    },
-    {
-      "id": 2,
-      "name": "History"
-    },
-    {
-      "id": 3,
-      "name": "Action"
-    },
-    {
-      "id": 4,
-      "name": "Adventure"
-    },
-    {
-      "id": 5,
-      "name": "Fantasy"
-    },
-    {
-      "id": 6,
-      "name": "Animation"
-    },
-    {
-      "id": 7,
-      "name": "Comedy"
-    },
-    {
-      "id": 8,
-      "name": "Supernatural"
-    },
-    {
-      "id": 9,
-      "name": "Horror"
-    },
-    {
-      "id": 10,
-      "name": "Crime"
-    },
-    {
-      "id": 11,
-      "name": "Mystery"
-    },
-    {
-      "id": 12,
-      "name": "Science Fiction"
-    },
-    {
-      "id": [],
-      "title": "John Wick: Chapter 4",
-      "date": "2023-03-24",
-      "cast": "Keanu Reeves,Donnie Yen",
-      "genreId": 3,
-      "extract": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
-      "thumbnail": "https://www.themoviedb.org/t/p/original/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
-      "banner": "https://www.themoviedb.org/t/p/original/vppo7eOOkkjoSoBSglYIxLDB0dJ.jpg",
-      "vote": "7",
-      "time": 120,
-      "trailer": "https://www.youtube.com/embed/cYX2_lDYZpI"
-    }
-  ]
+    "users": [
+        {
+            "id": 1,
+            "name": "Tran Tung",
+            "dob": "2022-07-10",
+            "account": "tung",
+            "password": "123456",
+            "phoneNumber": "0123456789",
+            "city": "Ha Noi",
+            "gender": 0,
+            "gmail": "tung@gmail.com",
+            "role": 1,
+            "isBan": false
+        },
+        {
+            "id": 2,
+            "name": "Tran Tung",
+            "dob": "2002-01-17",
+            "account": "mer",
+            "password": "123",
+            "phoneNumber": "0123255789",
+            "city": "Ha Noi",
+            "gender": 0,
+            "gmail": "dasdasd@gmail.com",
+            "role": 2,
+            "isBan": false
+        },
+        {
+            "account": "mer2",
+            "name": "Trần Duy Khánh Tùng",
+            "password": "12345678",
+            "gmail": "tungtdkhe163732@fpt.edu.vn",
+            "phone": "0973761021",
+            "city": "Hà Nội",
+            "address": "sds",
+            "gender": "female",
+            "dob": "2023-07-04",
+            "id": 3
+        },
+        {
+            "account": "merr12",
+            "name": "tyfd",
+            "password": "1234",
+            "gmail": "tung@fpt.edu.vn",
+            "phone": "012334456",
+            "city": "haha",
+            "address": "ds",
+            "gender": "male",
+            "dob": "2023-07-06",
+            "id": 4
+        }
+    ],
+    "Vote": [
+        {
+            "id": 1,
+            "comments": "hehehe",
+            "rate": 1
+        }
+    ],
+    "movie": [
+        {
+            "id": 1,
+            "title": "The Grudge",
+            "date": "14/07/2023",
+            "comments": "",
+            "cast": ["Andrea Riseborough,", "Demián Bichir,", "John Cho"],
+            "genres": ["Supernatural"],
+            "href": "The_Grudge_(2020_film)",
+            "extract": "The Grudge is a 2020 American psychological supernatural horror film written and directed by Nicolas Pesce. Originally announced as a reboot of the 2004 American remake and the original 2002 Japanese horror film Ju-On: The Grudge, the film ended up taking place before and during the events of the 2004 film and its two direct sequels, and is the fourth installment in the American The Grudge film series. The film stars Andrea Riseborough, Demián Bichir, John Cho, Betty Gilpin, Lin Shaye, and Jacki Weaver, and follows a police officer who investigates several murders that are seemingly connected to a single house.",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/34/The_Grudge_2020_Poster.jpeg",
+            "banner": "https://www.comingsoon.net/wp-content/uploads/sites/3/2019/10/Grudge.jpg",
+            "thumbnail_width": 220,
+            "thumbnail_height": 326,
+            "vote": 8,
+            "vote_average": 12,
+            "time": 120,
+            "overview": "An American nurse living and working in Tokyo is exposed to a mysterious supernatural curse, one that locks a person in a powerful rage before claiming their life and spreading to another victim.",
+            "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
+        },
+        {
+            "id": 2,
+            "title": "Underwater",
+            "date": "2020-10-01",
+            "cast": [
+                "Kristen Stewart",
+                "Vincent Cassel",
+                "Jessica Henwick",
+                "John Gallagher Jr.",
+                "Mamoudou Athie",
+                "T.J. Miller"
+            ],
+            "genreId": 3,
+            "extract": "Underwater is a 2020 American science fiction action horror film directed by William Eubank. The film stars Kristen Stewart, Vincent Cassel, Jessica Henwick, John Gallagher Jr., Mamoudou Athie, and T.J. Miller.",
+            "thumbnail": "https://www.themoviedb.org/t/p/original/gzlbb3yeVISpQ3REd3Ga1scWGTU.jpg",
+            "banner": "https://flixchatter.files.wordpress.com/2020/01/underwater-bnr.jpg?w=610&h=263",
+            "vote": 9,
+            "time": "124",
+            "trailer": "https://www.youtube.com/embed/jCFWEzIVILc"
+        },
+        {
+            "id": 3,
+            "title": "Like a Boss",
+            "date": "2020-07-01",
+            "cast": [
+                "Tiffany Haddish",
+                "Rose Byrne",
+                "Salma Hayek",
+                "Jennifer Coolidge",
+                "Billy Porter"
+            ],
+            "genreId": 7,
+            "extract": "Like a Boss is a 2020 American comedy film directed by Miguel Arteta, written by Sam Pitman and Adam Cole-Kelly, and starring Tiffany Haddish, Rose Byrne, and Salma Hayek. The plot follows two friends who attempt to take back control of their cosmetics company from an industry titan.",
+            "thumbnail": "https://www.themoviedb.org/t/p/original/yce0CZPWd0GGudksRJi8p4gDj1M.jpg",
+            "banner": "https://m.media-amazon.com/images/M/MV5BZDUyZTU2ZjUtMDlmNS00OTc2LTk4YzItNjk3YWY0MGQ0NzI3XkEyXkFqcGdeQXVyMjI0Mjg2NzE@._V1_.jpg",
+            "vote": 6.5,
+            "time": "120",
+            "trailer": "https://www.youtube.com/embed/9ESkyRFEso4"
+        },
+        {
+            "id": 4,
+            "title": "Three Christs",
+            "year": "2020-01-09",
+            "cast": [
+                "Richard Gere",
+                "Peter Dinklage",
+                "Walton Goggins",
+                "Bradley Whitford"
+            ],
+            "genreId": 1,
+            "href": "Three_Christs",
+            "extract": "Three Christs, also known as State of Mind, is a 2017 American drama film directed, co-produced, and co-written by Jon Avnet and based on Milton Rokeach's nonfiction book The Three Christs of Ypsilanti. It screened in the Gala Presentations section at the 2017 Toronto International Film Festival. The film is also known as: Three Christs of Ypsilanti, The Three Christs of Ypsilanti, Three Christs of Santa Monica, and The Three Christs of Santa Monica.",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a1/Three_Christs_poster.jpg",
+            "vote": 5.5,
+            "thumbnail_width": 259,
+            "thumbnail_height": 383
+        },
+        {
+            "id": 5,
+            "title": "Inherit the Viper",
+            "date": "2020-10-01",
+            "cast": [
+                "Josh Hartnett",
+                "Margarita Levieva",
+                "Chandler Riggs",
+                "Bruce Dern",
+                "Owen Teague"
+            ],
+            "genreId": 2,
+            "href": "Inherit_the_Viper",
+            "extract": "Inherit the Viper is a 2019 American crime drama film directed by Anthony Jerjen, in his feature directorial debut, from a screenplay by Andrew Crabtree. It stars Josh Hartnett, Margarita Levieva, Chandler Riggs, Bruce Dern, Valorie Curry, Owen Teague, and Dash Mihok.",
+            "thumbnail": "https://www.themoviedb.org/t/p/original/aaLEThX7CxKJuAQDnrZcecpzu0I.jpg",
+            "vote": 6,
+            "thumbnail_width": 236,
+            "thumbnail_height": 350
+        },
+        {
+            "id": 6,
+            "title": "The Sonata",
+            "date": "2020-12-06",
+            "cast": [
+                "Freya Tingley",
+                "Simon Abkarian",
+                "Rutger Hauer",
+                "James Faulkner"
+            ],
+            "genreId": 5,
+            "href": "The_Sonata_(film)",
+            "extract": "The Sonata is a 2018 mystery thriller film, directed by Andrew Desmond, from a screenplay by Desmond and Arthur Morin. It stars Freya Tingley, Simon Abkarian, James Faulkner, Rutger Hauer, Matt Barber and James Kermack. It was released in the United States on January 10, 2020, by Screen Media Films. It grossed $146,595 at the box office and received mixed reviews from critics.",
+            "thumbnail": "https://www.themoviedb.org/t/p/original/iiL3AWKPx6GIZN6AmmSq7pbtyc.jpg",
+            "vote": 5.5,
+            "thumbnail_width": 246,
+            "thumbnail_height": 350
+        },
+        {
+            "id": 7,
+            "title": "Bad Boys for Life",
+            "date": "2020-01-17",
+            "cast": [
+                "Will Smith",
+                "Martin Lawrence",
+                "Vanessa Hudgens",
+                "Alexander Ludwig",
+                "Charles Melton",
+                "Paola Núñez",
+                "Kate del Castillo",
+                "Nicky Jam",
+                "Joe Pantoliano"
+            ],
+            "genreId": 5,
+            "href": "Bad_Boys_for_Life",
+            "extract": "Bad Boys for Life is a 2020 American buddy cop action comedy film directed by Adil & Bilall. It is the sequel to Bad Boys II (2003) and the third installment in the Bad Boys franchise. Will Smith, Martin Lawrence, Joe Pantoliano and Theresa Randle reprise their roles in the film and are joined by Paola Núñez, Vanessa Hudgens, Jacob Scipio, Alexander Ludwig, Charles Melton, Kate del Castillo and Nicky Jam. The film was produced by Smith, Jerry Bruckheimer, and Doug Belgrad, with a screenplay written by Chris Bremner, Peter Craig and Joe Carnahan. In Bad Boys for Life, Miami detectives Mike Lowrey and Marcus Burnett investigate a string of murders tied to Lowrey's troubled past.",
+            "thumbnail": "https://www.themoviedb.org/t/p/original/y95lQLnuNKdPAzw9F9Ab8kJ80c3.jpg",
+            "vote": 6,
+            "thumbnail_width": 219,
+            "thumbnail_height": 325
+        },
+        {
+            "id": 8,
+            "title": "Dolittle",
+            "date": "2020-01-25",
+            "cast": [
+                "Robert Downey Jr.",
+                "Antonio Banderas",
+                "Michael Sheen",
+                "Emma Thompson",
+                "Rami Malek",
+                "John Cena",
+                "Kumail Nanjiani",
+                "Octavia Spencer",
+                "Tom Holland",
+                "Craig Robinson",
+                "Ralph Fiennes",
+                "Selena Gomez",
+                "Marion Cotillard"
+            ],
+            "genreId": 11,
+            "href": "Dolittle_(film)",
+            "extract": "Dolittle is a 2020 American fantasy adventure film directed by Stephen Gaghan from a screenplay by Gaghan, Dan Gregor, and Doug Mand, based on a story by Thomas Shepherd. Dolittle is based on the title character created by Hugh Lofting and is primarily inspired by the author's second Doctor Dolittle book, The Voyages of Doctor Dolittle (1922). Robert Downey Jr. stars as the title character, alongside Antonio Banderas and Michael Sheen in live-action roles, with Emma Thompson, Rami Malek, John Cena, Kumail Nanjiani, Octavia Spencer, Tom Holland, Craig Robinson, Ralph Fiennes, Selena Gomez, and Marion Cotillard voicing an array of creatures.",
+            "thumbnail": "https://www.themoviedb.org/t/p/original/uoplwswBDy7gsOyrbGuKyPFoPCs.jpg",
+            "vote": 6.5,
+            "thumbnail_width": 220,
+            "thumbnail_height": 326
+        },
+        {
+            "id": 9,
+            "title": "A Fall from Grace",
+            "date": "2020-01-17",
+            "cast": [
+                "Crystal R. Fox",
+                "Phylicia Rashad",
+                "Bresha Webb",
+                "Mehcad Brooks",
+                "Cicely Tyson",
+                "Tyler Perry"
+            ],
+            "genreId": 3,
+            "href": "A_Fall_from_Grace",
+            "extract": "A Fall from Grace is a 2020 American thriller film produced, written, and directed by Tyler Perry and his first to be released by Netflix. The film follows a woman who finds a dangerous new love and the novice attorney who defends her in a sensational court case. This was the final film of actor Cicely Tyson before her death in January 2021.",
+            "thumbnail": "https://www.themoviedb.org/t/p/original/h47JJZ015VF4neia33AFwTU37Yb.jpg",
+            "vote": 7,
+            "thumbnail_width": 259,
+            "thumbnail_height": 383
+        },
+        {
+            "id": 10,
+            "title": "The Gentlemen",
+            "date": "2020-02-21",
+            "cast": [
+                "Matthew McConaughey",
+                "Charlie Hunnam",
+                "Henry Golding",
+                "Michelle Dockery",
+                "Jeremy Strong",
+                "Eddie Marsan",
+                "Colin Farrell",
+                "Hugh Grant"
+            ],
+            "genreId": 8,
+            "href": "The_Gentlemen_(2019_film)",
+            "extract": "The Gentlemen is a 2019 action comedy film written, directed and produced by Guy Ritchie, who developed the story along with Ivan Atkinson and Marn Davies. The film stars Matthew McConaughey, Charlie Hunnam, Henry Golding, Michelle Dockery, Jeremy Strong, Eddie Marsan, Colin Farrell, and Hugh Grant. It follows an American cannabis wholesaler in England who is looking to sell his business, setting off a chain of blackmail and schemes to undermine him.",
+            "thumbnail": "https://www.themoviedb.org/t/p/original/jtrhTYB7xSrJxR1vusu99nvnZ1g.jpg",
+            "vote": 7,
+            "thumbnail_width": 259,
+            "thumbnail_height": 383
+        },
+        {
+            "title": "John Wick: Chapter 4",
+            "date": "2023-03-24",
+            "cast": "Keanu Reeves,Donnie Yen",
+            "genreId": 3,
+            "extract": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+            "thumbnail": "https://www.themoviedb.org/t/p/original/vppo7eOOkkjoSoBSglYIxLDB0dJ.jpg",
+            "banner": "https://www.themoviedb.org/t/p/original/vppo7eOOkkjoSoBSglYIxLDB0dJ.jpg",
+            "vote": 7.5,
+            "time": 120,
+            "trailer": "https://www.youtube.com/embed/cYX2_lDYZpI",
+            "id": 11
+        },
+        {
+            "title": "Barbie",
+            "date": "2023-07-21",
+            "cast": "Margot Robbie,Ryan Gosling",
+            "genreId": 7,
+            "extract": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
+            "thumbnail": "https://www.themoviedb.org/t/p/original/cgYg04miVQUAG2FKk3amSnnHzOp.jpg",
+            "banner": "https://www.themoviedb.org/t/p/original/1h7lX4NTYn9Ufwh2ls2DuVHAbHp.jpg",
+            "vote": 0,
+            "time": 120,
+            "trailer": "https://www.youtube.com/embed/8zIf0XvoL9Y",
+            "id": 12
+        },
+        {
+            "title": "Oppenheimer",
+            "date": "2023-08-04",
+            "cast": "Cillian Murphy,Emily Blunt",
+            "genreId": 2,
+            "extract": "The story of J. Robert Oppenheimer’s role in the development of the atomic bomb during World War II.",
+            "thumbnail": "https://www.themoviedb.org/t/p/original/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+            "banner": "https://www.themoviedb.org/t/p/original/aiFAq6HrEENrP2Hs9UCrjC9siVI.jpg",
+            "vote": 0,
+            "time": 120,
+            "trailer": "https://www.youtube.com/embed/uYPbbksJxIg",
+            "id": 13
+        },
+        {
+            "title": "Meg 2: The Trench",
+            "date": "2023-08-04",
+            "cast": "Jason Statham,Wu Jing",
+            "genreId": 3,
+            "extract": "An exploratory dive into the deepest depths of the ocean of a daring research team spirals into chaos when a malevolent mining operation threatens their mission and forces them into a high-stakes battle for survival.",
+            "thumbnail": "https://www.themoviedb.org/t/p/original/5aa22WKuoV5d9FqrqJ1PqXDiaE3.jpg",
+            "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vbvcvIxXywM6rP1ayoz3AxE83oe.jpg",
+            "vote": 0,
+            "time": 120,
+            "trailer": "https://www.youtube.com/embed/dG91B3hHyY4",
+            "id": 14
+        },
+        {
+            "title": "Teenage Mutant Ninja Turtles(2023)",
+            "date": "2023-08-02",
+            "cast": "Nicolas Cantu,Shamon Brown Jr.,Micah Abbey",
+            "genreId": 6,
+            "extract": "After years of being sheltered from the human world, the Turtle brothers set out to win the hearts of New Yorkers and be accepted as normal teenagers through heroic acts. Their new friend April O'Neil helps them take on a mysterious crime syndicate, but they soon get in over their heads when an army of mutants is unleashed upon them.",
+            "thumbnail": "https://www.themoviedb.org/t/p/original/gyh0eECE2IqrW8GWl3KoHBfc45j.jpg",
+            "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zfoLIXEz6dE6EJFuy1VovAUR2xu.jpg",
+            "vote": 0,
+            "time": 160,
+            "trailer": "https://www.youtube.com/embed/ooZdaF2zMlM",
+            "id": 15
+        },
+        {
+            "title": "Haunted Mansion",
+            "date": "2023-07-28",
+            "cast": "Rosario Dawson,Chase W. Dillon",
+            "genreId": 5,
+            "extract": "A woman and her son enlist a motley crew of so-called spiritual experts to help rid their home of supernatural squatters.",
+            "thumbnail": "https://www.themoviedb.org/t/p/original/kpLx1gDYolWLBNOmuFVvrqFKQK3.jpg",
+            "banner": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/d0tPXUI7GHSKiDZ32m7OrG15G3K.jpg",
+            "vote": 0,
+            "time": 160,
+            "trailer": "https://www.youtube.com/embed/gartMjonTXc",
+            "id": 16
+        }
+    ],
+    "upcomingmovie": [
+        {
+            "id": 1,
+            "title": "The Grudge",
+            "cast": ["Andrea Riseborough,", "Demián Bichir,", "John Cho"],
+            "year": "2020/03/01",
+            "genres": ["Supernatural"],
+            "thumbnail": "https://www.themoviedb.org/t/p/original/vN7JHlHOT9rHNDU27tfYqhABBj5.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Transformers: Rise of the Beasts (2023)",
+            "year": 2023,
+            "cast": [
+                "Ron Perlman",
+                "Anthony Ramos",
+                "Peter Cullen",
+                "Dominique Fishback",
+                "Luna Lauren Velez"
+            ],
+            "genres": ["Action", "Adventure", "Science Fiction"],
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BZTNiNDA4NmMtNTExNi00YmViLWJkMDAtMDAxNmRjY2I2NDVjXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Elemental (2023)",
+            "year": 2023,
+            "cast": ["Leah Lewis", "Mamoudou Athie"],
+            "genres": ["Fantasy", "Animation"],
+            "thumbnail": "https://www.cgv.vn/media/catalog/product/cache/1/image/1800x/71252117777b696995f01934522c402d/e/l/elemental_teaser_poster_vietnam_1_.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Extraction 2 (2023)",
+            "year": 2023,
+            "cast": ["Chris Hemsworth", "Golshifteh Farahani", "Adam Bessa"],
+            "genres": ["Action"],
+            "thumbnail": "https://m.media-amazon.com/images/M/MV5BZjg5MTM4N2QtN2RlMS00NzBlLTg3NDktM2ExZDNmMmExMGU3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Mission: Impossible - Dead Reckoning, Part One (2023)",
+            "year": 2023,
+            "cast": [
+                "Tom Cruise",
+                "Rebecca Ferguson",
+                "Simon Pegg",
+                "Ving Rhames",
+                "Vanessa Kirby"
+            ],
+            "genres": ["Action", "Adventure"],
+            "thumbnail": "https://www.cgv.vn/media/catalog/product/cache/3/image/c5f0a1eff4c394a251036189ccddaacd/7/0/700x1000_7_.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Oppenheimer (2023)",
+            "year": 2023,
+            "cast": ["Cillian Murphy", "Emily Blunt", "Robert Downey Jr"],
+            "genres": ["Drama", "History"],
+            "thumbnail": "https://onedrive.live.com/embed?resid=7E19459BBE9C15BC%21102459&authkey=%21AA2vFHb9DH1BXwI&width=1000&height=1500",
+            "trailer": "https://www.youtube.com/embed/bK6ldnjE3Y0"
+        }
+    ],
+    "genres": [
+        {
+            "id": 1,
+            "name": "Drama"
+        },
+        {
+            "id": 2,
+            "name": "History"
+        },
+        {
+            "id": 3,
+            "name": "Action"
+        },
+        {
+            "id": 4,
+            "name": "Adventure"
+        },
+        {
+            "id": 5,
+            "name": "Fantasy"
+        },
+        {
+            "id": 6,
+            "name": "Animation"
+        },
+        {
+            "id": 7,
+            "name": "Comedy"
+        },
+        {
+            "id": 8,
+            "name": "Supernatural"
+        },
+        {
+            "id": 9,
+            "name": "Horror"
+        },
+        {
+            "id": 10,
+            "name": "Crime"
+        },
+        {
+            "id": 11,
+            "name": "Mystery"
+        },
+        {
+            "id": 12,
+            "name": "Science Fiction"
+        }
+    ]
 }

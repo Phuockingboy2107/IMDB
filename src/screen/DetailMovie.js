@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
-import { Card, Col, Container, Row } from "react-bootstrap";
-import { Link, useParams } from "react-router-dom";
+import { Col, Row, Table } from "react-bootstrap";
+import { useParams } from "react-router-dom";
 import TemplateHome from "../Template/TemPlateHome";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/DetailMovie.css";
 import Iframe from "react-iframe";
+import CreateCm from "../components/CreateCm";
+import ListCm from "../components/ListCm";
+import Display from "../components/Display";
 const DetailMovie = () => {
     const { mid } = useParams();
 
@@ -20,6 +23,7 @@ const DetailMovie = () => {
                 console.log(err.message);
             });
     }, []);
+
     return (
         <TemplateHome>
             <div className="movie">
@@ -92,22 +96,10 @@ const DetailMovie = () => {
                     </div>
                 </div>
                 <br></br>
-                <Row>
-                    <Col>
-                        <Link to={"/"} className="btn btn-outline-primary">
-                            Home
-                        </Link>
-                    </Col>
-                    <Col col={2}>
-                        <Link to={"/favorite"} className="btn btn-outline-info">
-                            Save
-                        </Link>
-                    </Col>
-                </Row>
-
-                {/* <div className="movie__heading">Production companies</div> */}
-                <div className="movie__production">{}</div>
             </div>
+
+            <ListCm />
+            <Display />
         </TemplateHome>
     );
 };

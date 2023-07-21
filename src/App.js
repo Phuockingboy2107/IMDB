@@ -14,7 +14,11 @@ import Popular from "./screen/Popular";
 import ManagerDetailMovie from "./screen/ManagerMovieDetail";
 import CreateMovie from "./screen/CreateMovie";
 import ErrorPage from "./components/404Page";
-
+import Admin from "./screen/Admin";
+import Login from "./screen/Login";
+import Popular from "./screen/Popular";
+import Register from "./screen/Register";
+import Profile from "./screen/Profile";
 function App() {
     return (
         <BrowserRouter>
@@ -35,6 +39,11 @@ function App() {
                 <Route path="/manager/add" element={<CreateMovie />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="*" element={<ErrorPage />} />
+
+                <Route path="/manage/admin" element={<Admin />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/register" element={<Register />} />
+                <Route path="/profile/:profileId" element={<Profile />} />
             </Routes>
         </BrowserRouter>
     );
